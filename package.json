@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "jarallax": "^2.2.0",
+    "nuxt": "^3.11.1",
+    "object-fit-images": "^3.2.4",
+    "tailwindcss-hero-patterns": "^0.1.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vue3-carousel-nuxt": "^1.1.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
