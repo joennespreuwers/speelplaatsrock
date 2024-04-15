@@ -30,7 +30,10 @@ const route = useRoute();
     </div>
   </section>
   <!-- Hero w button -->
-  <section class="md:h-screen wiggle heropattern-jigsaw-blue-900" id="info">
+  <section
+    class="h-auto md:h-screen wiggle heropattern-jigsaw-blue-900"
+    id="info"
+  >
     <div class="container text-white flex flex-row pt-12 pb-12">
       <div class="md:w-1/2 flex flex-col">
         <h1 class="font-velodroma text-6xl md:text-6xl pl-6 md:pl-0">SPR?</h1>
