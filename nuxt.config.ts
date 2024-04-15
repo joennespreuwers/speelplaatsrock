@@ -18,6 +18,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['vue3-carousel-nuxt', ['@nuxtjs/google-fonts', { families: { 'montserrat-alternates': true , download: true, inject: true} }]],
+  modules: ['vue3-carousel-nuxt', ['@nuxtjs/google-fonts', { families: { 'Montserrat+Alternates': true , download: true, inject: true} }]],
   plugins: []
 })
