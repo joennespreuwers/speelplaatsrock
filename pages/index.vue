@@ -63,7 +63,7 @@ const route = useRoute();
     </div>
   </section>
 
-  <!-- Carousel -->
+  <!-- Sponsors -->
   <section class="container mt-12 mb-12">
     <div class="flex items-center justify-center mb-12">
       <h1 class="font-velodroma text-2xl md:text-4xl">onze Sponsors</h1>
@@ -105,7 +105,7 @@ const route = useRoute();
       <Slide class="h-40" :key="4">
         <div class="h-48 w-48 p-3">
           <img
-            src="../assets/sponsors/logo_sde.bmp"
+            src="../assets/sponsors/logo_sde.png"
             alt=""
             class="w-full h-full object-contain"
           />
