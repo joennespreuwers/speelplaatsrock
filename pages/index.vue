@@ -3,6 +3,20 @@ const route = useRoute();
 </script>
 
 <template>
+  <!-- Navbar -->
+  <nav
+    class="bg-transparent fixed top-0 w-screen z-50 transition-colors duration-600"
+  >
+    <div
+      class="container mx-auto flex items-center justify-center p-6 hover:scale-105 duration-500"
+    >
+      <a
+        href="https://instagram.com/speelplaatsrock2024"
+        class="bg-sky px-4 py-2 rounded-lg shadow-md text-white font-semibold"
+        >Klik hier voor meer info!</a
+      >
+    </div>
+  </nav>
   <!-- Hero -->
   <section class="relative h-screen" id="hero">
     <div class="absolute inset-0 jarallax" data-jarallax data-speed="0.5">
@@ -14,11 +28,11 @@ const route = useRoute();
     </div>
 
     <div
-      class="container mx-auto flex items-center justify-center h-full relative z-10"
+      class="container mx-auto flex flex-col items-center justify-center h-full relative z-10"
     >
       <img
         src="../assets/logo/logo_big_color_nobg.svg"
-        class="drop-shadow-2xl md:w-2/3 duration-1000 hover:scale-105"
+        class="drop-shadow-2xl md:h-2/3 duration-1000 hover:scale-105"
         alt="Logo"
       />
     </div>
@@ -65,7 +79,6 @@ const route = useRoute();
       </div>
     </div>
   </section>
-
   <!-- Sponsors -->
   <section class="container mt-12 mb-12">
     <div class="flex items-center justify-center mb-12">
@@ -136,6 +149,15 @@ const route = useRoute();
         <div class="h-48 w-48 p-3">
           <img
             src="../assets/sponsors/logo_ucll.png"
+            alt=""
+            class="w-full h-full object-contain"
+          />
+        </div>
+      </Slide>
+      <Slide class="h-40" :key="8">
+        <div class="h-48 w-48 p-3">
+          <img
+            src="../assets/sponsors/logo_pinguino.png"
             alt=""
             class="w-full h-full object-contain"
           />
